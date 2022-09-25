@@ -1,6 +1,6 @@
 [![Logo](/logo.png)](https://30secondsofcode.org/python/p/1)
 
-# 30 seconds of code
+# 60 seconds of code
 
 > Short C++ code snippets for all your development needs
 
