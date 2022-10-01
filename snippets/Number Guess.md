@@ -1,3 +1,15 @@
+---
+title: Number Guessing
+tags: Game, Input
+expertise: intermediate
+---
+
+- Randomly generates a number between 1 and 100.
+- Asks the user to guess the number.
+- If the user's guess is higher than the number, it will display "Lower number please!".
+- If the user's guess is lower than the number, it will display "Higher number please!".
+- If the user guesses the correct number, it will display the number of attempts he took to guess the number.
+
 ```cpp
 
 #include <iostream>                                     // for cout and cin
