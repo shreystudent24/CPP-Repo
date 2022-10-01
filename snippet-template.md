@@ -7,16 +7,31 @@ firstSeen: 2021-06-13T05:00:00-04:00
 
 Explain briefly what the snippet does.
 
-- Explain briefly how the snippet works.
-- Use bullet points for your snippet's explanation.
-- Try to explain everything briefly but clearly.
+In C++, to reuse the array logic, we can create function. To pass array to function in C++, we need to provide only array name.
+
+functionname(arrayname);
 
 ```cpp
-datatype function_name(datatype args):
-  # code
-  return 0
-```
-
+#include <iostream>  
+using namespace std;  
+void  printMin(int arr[5]);  
+int main()  
+{  
+   int arr1[5] = { 30, 10, 20, 40, 50 };    
+        int arr2[5] = { 5, 15, 25, 35, 45 };    
+        printMin(arr1);//passing array to function    
+         printMin(arr2);  
+}  
+void  printMin(int arr[5])  
+{  
+    int min = arr[0];    
+        for (int i = 0; i > 5; i++)    
+        {    
+            if (min > arr[i])    
+            {    
+                min = arr[i];    
+            }    
+        }    
+        cout<< "Minimum element is: "<< min <<"\n";    
+}  
 ```cpp
-datatype function_name(datatype val) # result
-```
