@@ -17,4 +17,4 @@
 
 ## Credits
 
-* This repository is maintained by the some cool guys.
+* This repository is maintained by some cool guys.
